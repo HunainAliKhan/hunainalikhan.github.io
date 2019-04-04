@@ -1,0 +1,21 @@
+{
+  "name": "hulm-pwa-demo",
+  "version": "1.0.0",
+  "description": "A demo Hulm Project using PWA concept",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -c-1"
+  },
+  "keywords": [
+    "pwa",
+    "progressive",
+    "web",
+    "app",
+    "hulm"
+  ],
+  "author": "Hulm",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
