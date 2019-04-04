@@ -18,7 +18,7 @@ $(document).ready(function() {
          localStorage.setItem('Tax',$('#taxTxtField').val());
         console.log($('#description'));
     });
-    GetElements();
+    //GetElements();
    
 });
 
