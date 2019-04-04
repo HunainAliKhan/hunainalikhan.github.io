@@ -1,7 +1,7 @@
 
 if('serviceWorker' in navigator){
     navigator.serviceWorker
-    .register('https://hunainalikhan.github.io/sw.js')
+    .register('./sw.js')
     .then(function(){
         console.log('service worker register');
     }).catch(function(err){
