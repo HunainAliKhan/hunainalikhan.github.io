@@ -1,8 +1,9 @@
-self.on('install',function(event){
+self.addEventListener('install', function(e) {
+ 
     console.log('[Service Worker] installing service worker',event);
 });
 
-self.on('activate',function(event){
+self.addEventListener('activate',function(event){
     console.log('[Service Worker] Activating service worker',event); 
     return self.clients.claim();
 });
